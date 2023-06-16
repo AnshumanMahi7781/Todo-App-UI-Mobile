@@ -1,0 +1,46 @@
+@media screen and (max-width:700px) {
+
+    .ButtonBox {
+        /* width: 100%; */
+        padding: 0px;
+        padding: 2em;
+        justify-content: center;
+       
+    }
+
+    .NewTask__Text {
+        display: none;
+    }
+
+    .TaskBox-Container {
+        padding: 0px;
+        padding: 10px;
+    }
+
+    .Task-Box {
+        width: 100%;
+
+    }
+    .BlurBackground {
+        height: 250vh;  
+      }
+    
+    .popupWindow {
+        left: 0;
+        width: 100%;
+        height: 275px;
+    }
+    .popupWindow .InputBox input[type="text"] {
+     width: 100%;
+    }
+
+    .popupWindow .InputBox button {
+
+        margin-left: 140px;
+    }
+    .buttonContainer{
+        justify-content: flex-start;
+        gap: 3em;
+    }
+
+}

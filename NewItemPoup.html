@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-App-UI-Web</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./index2.css" />
+    <link rel="stylesheet" href="./Popup.css" />
+    <link rel="stylesheet" href="./Responsive.Css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="flex-box">
+        <h1>Task<span> List</span></h1>
+      </header>
+      <div class="MainContainer">
+        <div class="buttonContainer flex-box">
+
+          
+          <div class="BackButtonBox">
+            <a href="./index.html" class="flex-box"><i class="fa-sharp fa-solid fa-circle-arrow-left" style="color: #424242;"></i>
+                <span>Back</span></a>
+        </div>
+            <div class="AddButtonBox"> 
+                <a href="./NewItemPoup.html" class="flex-box"> <i class="fa-solid fa-circle-plus" style="color: #00a5ec;"></i>
+                <span>Add New Task</span></a>
+            </div>
+        </div>
+        
+        <div class="CardContainer flex-box">
+
+            <div class="Task-Box flex-box">
+                <div class="TaskBox__header text-Center">Trip to Paris</div>
+                <div class="TaskBox__taskList flex-box">
+                  <div class="taskList__item">
+                    <input type="checkbox" checked />
+                    <span class="taskList__item__Completed">Visit Church</span>
+                  </div>
+                  <div class="taskList__item">
+                    <input type="checkbox" /> <span>Shooping</span>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+      <div class="BlurBackground"></div>
+
+      <div class="popupWindow flex-box">
+        <div class="PopupHeader flex-box">
+            <p>Add New Item</p>
+           <a href="./index2.html"> <i class="fa-solid fa-xmark" style="color: #858585;"></i></a>
+        </div>
+        <div class="InputBox">
+            <input type="text" name="TaskName" id="TaskName" placeholder="Visit Famous Places">
+            <button class="flex-box"><span class="Sign">&plus;</span>Add Item</button>
+        </div>
+      </div>
+</body>
+</html>

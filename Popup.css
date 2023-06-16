@@ -1,0 +1,73 @@
+.BlurBackground {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 120%;
+    background-color: #000000;
+    opacity: 60%;
+}
+
+.popupWindow {
+    position: absolute;
+    top: 27%;
+    left: 30%;
+    width: 500px;
+    height: 220px;
+    box-shadow: 0px 0px 20px #67676729;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popupWindow .PopupHeader {
+    width: 100%;
+    border-bottom: 1px solid #EDEDED;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+    color: #404040;
+    font-weight: bold;
+}
+
+
+
+.popupWindow .InputBox {
+    width: 90%;
+    height: 60%;
+
+}
+
+.popupWindow .InputBox input::placeholder {
+    /* font: normal normal normal 16px/20px Inter; */
+    font-size: 16px;
+    color: #858585;
+    opacity: 1;
+}
+
+.popupWindow .InputBox input[type="text"] {
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    opacity: 1;
+    width: 430px;
+    height: 30px;
+    padding: 20px;
+}
+
+.popupWindow .InputBox button {
+    margin-top: 20px;
+    border: none;
+    background-color: #00A5EC;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    opacity: 1;
+    margin-left: 280px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}

@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F7F7F7;
+}
+
+.flex-box {
+    display: flex;
+    align-items: center;
+}
+
+
+header {
+    background-color: #FFFFFF;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 3px 30px #7B7B7B29;
+    opacity: 1;
+}
+
+header h1 {
+    color: #424242;
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+header span {
+    color: #00A5EC;
+}
+
+
+.ButtonBox {
+   width: 100%;
+    justify-content: flex-end;
+    padding-top: 1em;
+    padding-right: 12em;
+}
+
+a {
+    text-decoration: none;
+    gap: 5px;
+}
+
+a span {
+    color: #424242;
+    font: normal normal normal 22px/26px Inter;
+}
+
+i {
+    font-size: 35px;
+}
+
+.TaskBox-Container {
+    width: 100%;
+    padding: 30px 0px 30px 125px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Task-Box {
+    width: 350px;
+    height: 275px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    flex-direction: column;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+
+}
+
+.Task-Box:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 20px #67676729;
+}
+
+.TaskBox__header {
+    border-bottom: 1px solid #EDEDED;
+    height: 20%;
+    width: 100%;
+    padding-left: 20px;
+    color: #00A5EC;
+    font: normal normal medium 20px/24px Inter;
+    font-size: 20px;
+}
+
+.TaskBox__header a {
+    text-decoration: none;
+    color: #00A5EC;
+}
+
+.TaskBox__taskList {
+    height: 80%;
+    width: 100%;
+    padding: 20px;
+    gap: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.taskList__item {
+    color: #424242;
+    font-size: 20px;
+}
+
+.taskList__item__Completed {
+    color: #C2C2C2;
+    text-decoration: line-through;
+}
+
+input[type=checkbox]{
+    height: 20px;
+    width: 20px;
+}
