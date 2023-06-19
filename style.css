@@ -54,10 +54,14 @@ a span {
 i {
     font-size: 35px;
 }
-
-.TaskBox-Container {
+.dummyParent{
     width: 100%;
-    padding: 30px 0px 30px 125px;
+justify-content: center;
+
+}
+.TaskBox-Container {
+    width: 80%;
+    padding: 1em;
     display: flex;
     align-items: center;
     justify-content: flex-start;
