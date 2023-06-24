@@ -5,10 +5,11 @@
   
 }
 .buttonContainer{
-    width: 100%;
+    width: 450px;
     height: 50%;
     justify-content: center;
     gap: 10em;
+    margin: 0px auto;
 }
 
 
